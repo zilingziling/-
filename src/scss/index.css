@@ -1,0 +1,334 @@
+@charset "UTF-8";
+:root {
+  --primary-color: #5584ff;
+  --secend-color: rgb(47, 60, 78);
+  --text: #fff;
+  --text2: #a1a1a1;
+  --text3: #9b9b9b;
+  --text4: #727272;
+  --dark-text: #333;
+  --text-aciive: #56bc8a;
+  --header-height: 64px;
+  --footer-height: 70px;
+  --blog-header: 40px;
+}
+
+html {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 1980px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  /* font-family: "dosis", "Segoe UI", "Lucida Grande", Helvetica, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans","wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* color: #fff; */
+  font-size: 22px;
+}
+
+@media screen and (max-width: 1980px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  /* 设置滚动条的样式 */
+  /* 滚动槽 */
+  /* 滚动条滑块 */
+  /* height: 100vh; */
+  /* background-color: #f8f9fa;  */
+  background: url('../assets/img/background.png');
+  /* background-repeat: no-repeat; */
+  font-family: MicrosoftYaHei;
+  min-width: 1620px;
+  /* max-width: 1920px; */
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 4px rgba(0,0,0,0.1); */
+  box-shadow: none;
+  /* border-radius: 4px; */
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: none;
+}
+
+body::-webkit-scrollbar-thumb:window-inactive {
+  background-color: transparent;
+}
+
+body .app {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.font-green {
+  color: green;
+}
+
+@media screen and (max-width: 100px) {
+  .hidden-1 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .hidden-2 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .hidden-3 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hidden-4 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hidden-5 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hidden-6 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .hidden-7 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hidden-8 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hidden-9 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hidden-10 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .hidden-11 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hidden-12 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .hidden-13 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .hidden-14 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .hidden-15 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .hidden-16 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .hidden-17 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .hidden-18 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  .hidden-19 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .hidden-20 {
+    visibility: hidden;
+    position: absolute;
+    top: -999em;
+    display: hidden !important;
+  }
+}
+
+#nprogress .bar {
+  background: red !important;
+  height: 2.5px !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 12px;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/*定义滑块 内阴影+圆角*/
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: rgba(20, 133, 199, 1);
+}
+
+.all-a{
+  color: #a4d2fd;
+}
+.all-a:hover{
+    color: #45e9fc!important;
+  /*color: #ffffff !important;*/
+    border-bottom: 1px solid;
+}
+
+a[disabled]{
+  color: #b2b8bf;
+  cursor: not-allowed !important;
+}
+

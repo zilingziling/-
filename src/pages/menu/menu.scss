@@ -1,0 +1,54 @@
+.menus {
+  display: flex;
+  &-all {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 85vw;
+    &-btn {
+      margin-bottom: 1rem;
+      button{
+        background: rgba(84, 172, 254, 0.1);
+        border: 1px solid #1485c7;
+        opacity: 0.95;
+        border-radius: 2px;
+        -webkit-box-shadow: 0px 0px 10px #1485c7;
+        box-shadow: 0px 0px 10px #1485c7;
+        &:hover{
+          background: none;
+        }
+        &:focus{
+          background: none;
+        }
+        &:active{
+          background: none;
+        }
+      }
+    }
+  }
+}
+
+.inputss {
+  width: 16.5rem;
+  border: 1px solid #24c9ff;
+  background: rgba(31, 65, 145, 0.1);
+  color: #66e2f5;
+}
+
+.spans {
+  color: cyan
+}
+
+
+
+.ant-form-item-label label {
+  color: cyan;
+}
+
+.ant-radio-inner {
+  background: none;
+}
+// .ant-table-thead > tr > th {
+//   background: rgba(45, 52, 63, 0.2) ;
+//   color: #66e2f5 ;
+//   border-bottom: 1px solid #45e9fc ;
+// }

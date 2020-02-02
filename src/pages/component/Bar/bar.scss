@@ -1,0 +1,124 @@
+.bar {
+  //width: 240px;
+  display: flex; // align-items: center;
+  flex-direction: column;
+
+  .devicesele-selects {
+    // width: 12rem;
+    // display: flex;
+    color: #fff !important;
+    align-items: center;
+    margin-top: 10px;
+    height: 70vh !important;
+    overflow:auto scroll;
+  }
+  &-P {
+    text-align: center;
+    margin-top: 10px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid rgba(39, 111, 144, 1);
+    &-d {
+      background: rgb(0, 160, 233);
+      height: 30px;
+      margin: 0 12px;
+    }
+    a {
+      font-size: 19px;
+      color: #49C1FC;
+      font-family: "MicrosoftYaHei";
+      font-weight: 400;
+    }
+  }
+}
+.atyle{
+	border-bottom: 2px solid #2A7BC5;
+	padding-bottom: 14px,
+}
+.row-span{
+  color: #fff;
+  font-size: 0.8rem;
+}
+.row-inputs{
+  width: 300px;
+  border: 1px solid #24c9ff;
+  background: rgba(31, 65, 145, 0.1);
+  color: #66e2f5;
+}
+.ant-select-selection--single{
+  background: none;
+  border: 1px solid #24c9ff;
+}
+.ant-select-dropdown-placement-bottomLeft{
+ background: #1f4191;
+}
+.ant-select-dropdown{
+  background: #1f4191;
+}
+.ant-select-tree li{
+  color: #fff;
+}
+.ant-select-tree-title{
+  color: #fff;
+  font-size: 0.7rem;
+}
+.ant-select-selection__clear{
+  background: none;
+  color: #fff;
+}
+.ant-select-arrow{
+  color: red;
+}
+.ant-select-tree li .ant-select-tree-node-content-wrapper:hover {
+  background: none;
+}
+.ant-select-tree li .ant-select-tree-node-content-wrapper.ant-select-tree-node-selected{
+  background: none;
+}
+.ant-select-selection-selected-value{
+  color: #66e2f5;
+}
+
+.ant-tree-switcher.ant-tree-switcher_close {
+  color: #54ACFE !important
+}
+
+// .ant-tree-switcher_open {
+//   color: #54ACFE !important
+// }
+
+// .ant-tree-treenode-selected {
+//   .ant-tree-title {
+//     border-bottom: 2px solid rgb(234, 190, 54);
+//     padding-bottom: 5px;
+//   }
+// }
+
+.ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected {
+  background: none
+}
+
+
+.ant-tree-title {
+  color: #fff !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 12px;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/*定义滑块 内阴影+圆角*/
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: rgba(20, 133, 199, 1);
+}

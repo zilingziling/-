@@ -1,0 +1,77 @@
+.sb {
+  width: 12rem;
+}
+
+$color:cyan;
+
+.schoolBar {
+  // width: 249px;
+  text-align: center;
+  margin-top: 10px;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #276f90;
+
+  &-a {
+    a {
+      font-size: 19px;
+      color: #49C1FC;
+    }
+
+    &-d {
+      background: #00a0e9;
+      height: 30px;
+      margin: 0 12px;
+    }
+  }
+
+  &-bars {
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 70vh;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+}
+
+.spans {
+  color: $color;
+  font-size: 0.8rem;
+  text-decoration: underline
+}
+
+.span {
+  color: $color;
+}
+
+.spanss {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.atyle {
+  border-bottom: 2px solid #2A7BC5;
+  padding-bottom: 14px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 12px;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/*定义滑块 内阴影+圆角*/
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: rgba(20, 133, 199, 1);
+}

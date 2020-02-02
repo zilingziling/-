@@ -1,0 +1,86 @@
+$color:#fff;
+
+.antallBnt{
+  background: rgba(84, 172, 254, 0.1);
+  border: 1px solid #1485c7;
+  opacity: 0.95;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 10px #1485c7;
+  box-shadow: 0px 0px 10px #1485c7;
+}
+.user {
+  margin-left: 12rem;
+  margin-top: 1rem;
+  width: 85vw;
+  &-header{
+    display: flex;
+    align-items: center;
+    &-left{
+      display: flex;
+      align-items: center;
+      &-span{
+        color: #fff;
+        width: 5rem;
+      }
+      &-input{
+        // input{
+        //   width: 16.5rem;
+        //   border: 1px solid #24c9ff;
+        //   background: rgba(31, 65, 145, 0.1);
+        //   color: #66e2f5;
+        // }
+      }
+      &-btns{
+        margin-left: 1rem;
+        &:hover{
+         background: none
+        }
+        &:active{
+          background: none
+        }
+        &:focus{
+          background: none
+        }
+        @extend .antallBnt
+      }
+    }
+  }
+  &-table{
+    margin-top: 1rem;
+    &-btns{
+      margin-bottom: 1rem;
+      &:hover{
+       background: none
+      }
+      &:active{
+        background: none
+      }
+      &:focus{
+        background: none
+      }
+      @extend .antallBnt
+    }
+  }
+}
+.selectall{
+    width: 11rem !important;
+}
+.spans{
+  color: #fff;
+}
+ 
+// .user-inputs{
+//   width: 12rem;
+//   // border: 1px solid #24c9ff;
+//   border-radius: 1px;
+//   background: #1f4191;
+//   color: #66e2f5;
+// }
+.ant-input-affix-wrapper .ant-input-suffix{
+  right: 30px;
+  color: red;
+}
+
+// :global {
+
+  // }

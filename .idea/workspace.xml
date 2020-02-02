@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2eb306b-b336-4f46-b538-54065130cb29" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1V2oNwWBEms1sXx4BW9mKgJxx48" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="E:\dzl\易简天下\电子科大\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="C:\Users\80521\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\dzl\易简天下\电子科大\src\utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\80521\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2eb306b-b336-4f46-b538-54065130cb29" name="Default Changelist" comment="" />
+      <created>1576460514335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576460514335</updated>
+      <workItem from="1576460515543" duration="1024000" />
+      <workItem from="1576546794401" duration="18976000" />
+      <workItem from="1576631378963" duration="22804000" />
+      <workItem from="1576718015658" duration="30565000" />
+      <workItem from="1576804804870" duration="20645000" />
+      <workItem from="1577064423317" duration="11745000" />
+      <workItem from="1577151980632" duration="20431000" />
+      <workItem from="1577236673407" duration="16759000" />
+      <workItem from="1577324166884" duration="90000" />
+      <workItem from="1577324369906" duration="14203000" />
+      <workItem from="1577352620992" duration="1662000" />
+      <workItem from="1577669096439" duration="14412000" />
+      <workItem from="1577755917007" duration="3915000" />
+      <workItem from="1577929211179" duration="19826000" />
+      <workItem from="1578013900169" duration="20459000" />
+      <workItem from="1578273162392" duration="2293000" />
+      <workItem from="1578276551203" duration="4622000" />
+      <workItem from="1578360592671" duration="12293000" />
+      <workItem from="1578445961848" duration="20404000" />
+      <workItem from="1578533261180" duration="17885000" />
+      <workItem from="1578618850434" duration="1669000" />
+      <workItem from="1578620762349" duration="960000" />
+      <workItem from="1578628044558" duration="10012000" />
+      <workItem from="1578877315984" duration="15963000" />
+      <workItem from="1578965760844" duration="21101000" />
+      <workItem from="1579052422896" duration="19786000" />
+      <workItem from="1579137947586" duration="3257000" />
+      <workItem from="1579166916098" duration="1895000" />
+      <workItem from="1579224819500" duration="3112000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1894" height="265" key="GridCell.Tab.0.bottom" timestamp="1579243987283">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1894" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579225331071" />
+    <state width="1894" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579243987283" />
+    <state width="1894" height="265" key="GridCell.Tab.0.center" timestamp="1579243987283">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1894" height="265" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579225331071" />
+    <state width="1894" height="265" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579243987283" />
+    <state width="1894" height="265" key="GridCell.Tab.0.left" timestamp="1579243987282">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1894" height="265" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579225331071" />
+    <state width="1894" height="265" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579243987282" />
+    <state width="1894" height="265" key="GridCell.Tab.0.right" timestamp="1579243987283">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1894" height="265" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579225331071" />
+    <state width="1894" height="265" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579243987283" />
+    <state x="330" y="75" key="SettingsEditor" timestamp="1579071420507">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="330" y="75" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579071420507" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1579070936439">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579070936439" />
+    <state x="2156" y="148" width="1579" height="1019" key="dock-window-1" timestamp="1577930956358">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2156" y="148" width="1579" height="1019" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577930956358" />
+    <state x="544" y="179" width="831" height="682" key="find.popup" timestamp="1579167622893">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="544" y="179" width="831" height="682" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579167622893" />
+    <state x="2464" y="179" width="831" height="682" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578296985420" />
+  </component>
+</project>

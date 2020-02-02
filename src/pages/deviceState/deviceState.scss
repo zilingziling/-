@@ -1,0 +1,17 @@
+.state {
+  display: flex;
+
+  &-tables {
+    width: 85vw;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+}
+
+.deviceOffline {
+  color: #cd3838
+}
+
+.deviceOnline {
+  color: #1dca73
+}

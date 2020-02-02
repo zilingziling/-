@@ -1,0 +1,73 @@
+//tabs
+.tabss {
+
+  // margin-top: 30px;
+  .tiems {
+    display: flex;
+
+    &-button {
+      color: #fff;
+      margin-left: 0.6rem;
+    }
+
+    &-select {
+      width: 11rem;
+    }
+
+    .imgs {
+      margin-left: 0.6rem;
+    }
+
+    .tiems-select {
+      // border: 1px solid rgba(36, 201, 255, 1);
+    }
+
+    .inputs {
+      width: 11rem;
+      border: 1px solid rgba(36, 201, 255, 1);
+      border-radius: 1px;
+      background: rgba(31, 65, 145, 1);
+      color: #66e2f5;
+    }
+  }
+
+  .links {
+    width: 100%;
+    display: flex;
+
+    .Group {
+      width: 100%;
+      margin-top: 2.125rem;
+      margin-left: 1.9375rem;
+
+      &-span {
+        color: #fff;
+      }
+
+      .Groups {
+        width: 100%;
+
+        &-span {
+          color: #fff;
+        }
+      }
+    }
+
+    .time {
+      margin-left: 10rem;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .rows {
+    display: flex;
+
+    &-inputs {
+      width: 12.5rem;
+      background: rgba(0, 160, 233, 0.2);
+      color: #66e2f5;
+      border: 1px solid #00a0e9;
+    }
+  }
+}

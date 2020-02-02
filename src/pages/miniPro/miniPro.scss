@@ -1,0 +1,56 @@
+.miniWrapper{
+  margin-left: 12rem;
+  margin-top: 1rem;
+  width: 85vw;
+  .form{
+    .version{
+      display: flex;
+      align-items: center;
+    }
+  }
+  .add{
+    margin: .5rem 0 1rem;
+  }
+  .formItem{
+    display: flex;
+    margin-right: 1rem;
+    margin-bottom: 0;
+    color: #FFFFFF;
+    .switch{
+      margin: 0 0.5rem;
+    }
+
+  }
+  .searchBtn{
+    background: none;
+    color: #ffffff;
+    box-shadow: 0 0 10px #1485c7;
+  }
+
+}
+    .input{
+      width: 12.5rem;
+      border: 1px solid #24c9ff;
+      background: rgba(31, 65, 145, 0.1);
+      color: #66e2f5;
+
+}
+.table{
+  td{
+    a{
+      color: #a4d2fd;
+      &:hover{
+        color: #45e9fc !important;
+        border-bottom: 1px solid;
+      }
+    }
+  }
+  .ant-table{
+    background: rgba(56, 150, 222, 0.6);
+    &-span {
+      a {
+        color: rgba(164, 210, 253, 1);
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.ctr-models {
+  :global {
+    .ant-modal-close-x {
+      color: #ffffff;
+    }
+
+    .ant-modal-body {
+      padding: 0;
+      padding-top: 20px;
+      background: #363b43;
+    }
+  }
+
+}
+
+.modles {
+
+  // :global {
+  .ant-modal-body {
+    background-color: #1f4191;
+  }
+
+  .ant-modal-confirm-title {
+    color: #ffffff;
+  }
+
+  .ant-btn {
+    background: rgb(9, 131, 205);
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+
+  // }
+}

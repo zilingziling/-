@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script src="./transmsg_final.js"></script>
+    <title>弈简运维管控平台</title>
+  </head>
+
+  <body >
+    <div id="root"></div>
+    <script>
+      let Pro = "ws://" + window.location.hostname + ":28880/room"; //部署上线环境
+      let Dev = "ws://172.16.3.75:28880/room"; //开发环境
+      window.url = Dev; //socket
+      window.title = "弈简运维管控平台";
+    </script>
+  </body>
+</html>

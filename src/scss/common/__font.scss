@@ -1,0 +1,23 @@
+@import '../mixin/__media';
+
+html {
+	font-size: 22px;
+}
+
+@include mediaMax(1980px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@include mediaMax(1440px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@include mediaMax(960px) {
+	html {
+		font-size: 14px;
+	}
+}
